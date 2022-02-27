@@ -29,6 +29,9 @@ class Student:
         print(f"Имя: {self.name}, возраст: {self.age}, оценка: {self.grade}")
         print("--------------------------------")
 
+    def get_grade(self):
+        return self.grade()
+
 
 class Course:
     def __init__(self, name, max_students):
